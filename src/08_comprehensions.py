@@ -40,7 +40,7 @@ print(t)
 a = input("Enter comma-separated numbers: ").split(',')
 
 # What do you need between the square brackets to make it work?
-b = [i for i in a if i % 2 == 0]
+b = [i for i in a if int(i) % 2 == 0]
 
 print(b)
 # -------- NOT SURE IF THIS WORKS!!!! ----

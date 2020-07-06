@@ -12,28 +12,22 @@ Use Python's slice syntax to achieve the following:
 a = [2, 4, 1, 7, 9, 6]
 
 # Output the second element: 4:
-b = a.pop(1)
-print(b)
+print(a[1])
 
-# Output the second-to-last element: 9
-c = a.pop(-2)
-print(c)
+# # Output the second-to-last element: 9
+print(a[-2])
 
 # Output the last three elements in the array: [7, 9, 6]
-d = a[3:6]
-print(d)
+print(a[3:6])
 
 # Output the two middle elements in the array: [1, 7]
-e = a[2:4]
-print(e)
+print(a[2:4])
 
 # Output every element except the first one: [4, 1, 7, 9, 6]
-f = a[1:6]
-print(f)
+print(a[1:6])
 
 # Output every element except the last one: [2, 4, 1, 7, 9]
-g = a[0:5]
-print(g)
+print(a[0:5])
 
 # For string s...
 
